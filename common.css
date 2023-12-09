@@ -1,6 +1,7 @@
 body {
   height: 100dvh;
   margin: 0;
+  font-family: 'Cabin', sans-serif;
 }
 
 header {
@@ -79,6 +80,11 @@ footer a {
   align-items: center;
   margin-top: 40px;
   text-decoration: none;
+  transition: 0.5s;
+}
+
+footer a:hover {
+  opacity: 0.8;
 }
 
 footer a img {
