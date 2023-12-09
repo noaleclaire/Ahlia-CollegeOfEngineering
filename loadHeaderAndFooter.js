@@ -11,6 +11,8 @@ fetch('/header/header.html')
     var parent = mainContent.parentNode;
 
     parent.insertBefore(header, mainContent);
+  })
+  .then(res => {
     switch (document.title) {
       case "College of Engineering - Ahlia University | Bahrain":
         document.getElementById('title-logo').lastElementChild.innerHTML = "College of Engineering"
