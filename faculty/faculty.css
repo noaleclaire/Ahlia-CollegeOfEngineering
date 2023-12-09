@@ -1,0 +1,73 @@
+#main-content {
+  display: flex;
+  justify-content: center;
+}
+
+#faculty-cards {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px;
+  justify-content: space-evenly;
+  gap: 60px;
+}
+
+#faculty-cards:hover .faculty-card {
+  transform: scale(0.9);
+  opacity: 0.5;
+}
+
+#faculty-cards .faculty-card:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.faculty-card {
+  position: relative;
+  width: 350px;
+  height: 550px;
+  background-color: rgb(247, 242, 242);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px;
+  transition: 0.5s;
+}
+
+.faculty-card-circle {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  clip-path: circle(320px at center 0);
+}
+
+.faculty-card-circle img {
+  width: 100%;
+}
+
+.faculty-card-content {
+  position: absolute;
+  width: 87%;
+  bottom: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.faculty-card-content p {
+  font-size: 18px;
+}
+
+.faculty-card-content a {
+  position: relative;
+  font-size: 22px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ba0928;
+  color: rgb(247, 242, 242);
+  border-radius: 40px;
+  text-decoration: none;
+}
+
+.faculty-card-content a:hover {
+  background-color: #db042c;
+}
