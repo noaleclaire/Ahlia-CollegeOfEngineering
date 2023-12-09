@@ -21,9 +21,6 @@ fetch('/header/header.html')
       case "College of Engineering - Programmes | Bahrain":
         document.getElementById('title-logo').lastElementChild.innerHTML = "Programmes"
         break;
-      case "College of Engineering - Events | Bahrain":
-        document.getElementById('title-logo').lastElementChild.innerHTML = "Events"
-        break;
       default:
         break;
     }

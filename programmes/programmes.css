@@ -1,0 +1,80 @@
+#main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  margin: 50px;
+}
+
+.prg {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  width: 85%;
+}
+
+.prg img {
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+}
+
+.prg-cards {
+  width: 100%;
+  display: flex;
+  transition: 0.5s;
+}
+
+.prg-cards:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.prg-card-title{
+  width: 25%;
+  height: 150px;
+  background-color: #ba0928;
+  transform: skew(-30deg);
+  box-shadow: 0 5px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.prg-card-content-title {
+  color: rgb(247, 242, 242);
+  transform: skew(30deg);
+  margin-right: 15px;
+}
+
+.prg-card{
+  width: 75%;
+  height: 150px;
+  background-color: rgb(247, 242, 242);
+  transform: skew(-30deg);
+  box-shadow: 8px 5px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.prg-card-content {
+  display: flex;
+  flex-direction: column;
+  transform: skew(30deg);
+  padding: 0 50px;
+  text-align: justify;
+}
+
+.prg-card-content a {
+  align-self: flex-end;
+  padding: 10px 20px;
+  font-size: 22px;
+  background-color: #ba0928;
+  color: rgb(247, 242, 242);
+  border-radius: 40px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.prg-card-content a:hover {
+  background-color: #db042c;
+}

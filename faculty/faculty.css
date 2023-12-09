@@ -1,13 +1,13 @@
 #main-content {
   display: flex;
   justify-content: center;
+  margin: 50px;
 }
 
 #faculty-cards {
   width: 80%;
   display: flex;
   flex-wrap: wrap;
-  margin: 50px;
   justify-content: space-evenly;
   gap: 60px;
 }
@@ -66,6 +66,7 @@
   color: rgb(247, 242, 242);
   border-radius: 40px;
   text-decoration: none;
+  transition: 0.5s;
 }
 
 .faculty-card-content a:hover {
