@@ -1,3 +1,7 @@
+header {
+  background-image: url(./assets/headerBg.jpg);
+}
+
 #main-content {
   display: flex;
   flex-direction: column;
