@@ -37,7 +37,7 @@ header {
 .prg-card-title{
   width: 25%;
   height: 150px;
-  background-color: #ba0928;
+  background-color: #004aad;
   transform: skew(-30deg);
   box-shadow: 0 5px 20px;
   display: flex;
@@ -75,7 +75,7 @@ header {
   right: 20px;
   padding: 10px 20px;
   font-size: 22px;
-  background-color: #ba0928;
+  background-color: #004aad;
   color: rgb(247, 242, 242);
   border-radius: 40px;
   text-decoration: none;

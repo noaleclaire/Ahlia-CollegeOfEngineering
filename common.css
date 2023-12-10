@@ -14,7 +14,7 @@ header {
 nav {
   height: 18%;
   display: flex;
-  background-color: #ba0928;
+  background-color: #004aad;
 }
 
 nav menu {
@@ -70,7 +70,7 @@ footer {
   align-items: center;
   justify-content: center;
   height: 27%;
-  background-color: #ba0928;
+  background-color: #004aad;
   border-radius: 25% 25% 0 0;
 }
 

@@ -27,7 +27,7 @@ header {
 #sec2 {
   display: flex;
   justify-content: center;
-  background-color: #ba0928;
+  background-color: #004aad;
   transform: rotate(-2deg);
   position: relative;
   left: -10px;
@@ -63,12 +63,12 @@ header {
 #title-posts h1 {
   margin: 0;
   font-size: 56px;
-  color: #ba0928;
+  color: #004aad;
 }
 
 #primary-carousel {
   width: 50%;
-  height: 500px;
+  height: 420px;
 }
 
 #primary-carousel .splide__track {
