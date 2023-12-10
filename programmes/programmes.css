@@ -68,8 +68,11 @@ header {
   text-align: justify;
 }
 
-.prg-card-content a {
-  align-self: flex-end;
+.prg-card a {
+  position: absolute;
+  transform: skew(30deg);
+  bottom: -22px;
+  right: 20px;
   padding: 10px 20px;
   font-size: 22px;
   background-color: #ba0928;
@@ -79,6 +82,6 @@ header {
   transition: 0.5s;
 }
 
-.prg-card-content a:hover {
+.prg-card a:hover {
   background-color: #db042c;
 }

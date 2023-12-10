@@ -8,9 +8,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
   <title>College of Engineering - Ahlia University | Bahrain</title>
 </head>
 <body>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
   <header>
     <nav>
       <menu>
@@ -56,7 +58,29 @@
       </div>
     </section>
     <section id="sec3">
-      home
+      <div id="title-posts">
+        <h1>New Posts!</h1>
+      </div>
+      <div class="splide" id="primary-carousel">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide"><img src="./assets/Dr.Alaaeddine.png" alt="Image 1"></li>
+            <li class="splide__slide"><img src="./assets/Dr.Ali-Houssein-Harmouch-scaled.jpg" alt="Image 2"></li>
+            <li class="splide__slide"><img src="./assets/Dr.Ammar-Aldallal-scaled.jpg" alt="Image 3"></li>
+            <!-- Ajoute autant d'éléments li.splide__slide que nécessaire pour tes images -->
+          </ul>
+        </div>
+      </div>
+      <div class="splide" id="thumbnail-carousel">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide"><img src="./assets/Dr.Alaaeddine.png" alt="Thumbnail 1"></li>
+            <li class="splide__slide"><img src="./assets/Dr.Ali-Houssein-Harmouch-scaled.jpg" alt="Thumbnail 2"></li>
+            <li class="splide__slide"><img src="./assets/Dr.Ammar-Aldallal-scaled.jpg" alt="Thumbnail 3"></li>
+            <!-- Ajoute autant d'éléments li.splide__slide que nécessaire pour tes miniatures -->
+          </ul>
+        </div>
+      </div>
     </section>
   </div>
   <footer>
@@ -66,5 +90,6 @@
     </a>
     <p>Credits: <span style="text-decoration: underline;">Noa Leclaire</span>, <span style="text-decoration: underline;">Marvin Verain</span>, <span style="text-decoration: underline;">Naël Mabrouki</span>, <span style="text-decoration: underline;">Redouane El Shahawi</span></p>
   </footer>
+  <script src="./splide.js"></script>
 </body>
 </html>

@@ -5,11 +5,10 @@ header {
 #main-content {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  overflow: hidden;
 }
 
 #sec1 {
-  flex: 1;
   display: flex;
   justify-content: center;
 }
@@ -26,11 +25,13 @@ header {
 }
 
 #sec2 {
-  flex: 1;
   display: flex;
   justify-content: center;
   background-color: #ba0928;
-  height: 100%;
+  transform: rotate(-2deg);
+  position: relative;
+  left: -10px;
+  width: 102%;
 }
 
 #video-interview {
@@ -40,8 +41,37 @@ header {
   width: 80%;
   gap: 100px;
   margin: 50px;
+  transform: rotate(2deg);
 }
 
 #sec3 {
-  /* flex: 1; */
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  align-items: center;
+}
+
+#title-posts {
+  background-color: rgb(247, 242, 242);
+  padding: 20px 50px;
+  transform: skew(-30deg);
+  border-radius: 2%;
+  margin: 50px;
+  box-shadow: 2px 2px 8px;
+}
+
+#title-posts h1 {
+  margin: 0;
+  font-size: 56px;
+  color: #ba0928;
+}
+
+#primary-carousel {
+  width: 50%;
+  height: 500px;
+}
+
+#primary-carousel .splide__track {
+  box-shadow: 0 4px 10px;
+  border-radius: 25px;
 }
